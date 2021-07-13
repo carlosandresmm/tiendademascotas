@@ -1,4 +1,7 @@
 <?php
+use App\Http\Controllers\tb_productoController;
+use App\Http\Controllers\tb_pedidoController;
+use App\Http\Controllers\tb_dirigidoController;
 use App\Http\Controllers\ContactoController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,5 +22,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('contacto', ContactoController::class);
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('home', tb_productoController::class); 
+Route::get('admin_productos', [tb_productoController::class, 'admin'] );
+Route::resource('pedidos', tb_pedidoController::class); 
+Route::resource('dirigidos', tb_dirigidoController::class); 

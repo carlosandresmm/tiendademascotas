@@ -36,7 +36,7 @@
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="#" style=" margin-right: 180px;">Productos<span
+                        <a class="nav-link" href="{{ url('home') }}" style=" margin-right: 180px;">Productos<span
                                 class="sr-only">(current)</span></a>
                     </li>
 
