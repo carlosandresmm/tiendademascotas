@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\ContactoController;
+use App\Http\Controllers\TbMediosPagosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/pagos', function () {
+    return view('medios_pago.crear');
 });
 
 Auth::routes();
