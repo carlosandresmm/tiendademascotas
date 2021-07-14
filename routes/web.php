@@ -20,7 +20,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/marca', function () {
+    return view('marca.index');
+});
+
 Auth::routes();
+
+Route::resource('marca', tb_marcaController::class);
 
 Route::resource('contacto', ContactoController::class);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
