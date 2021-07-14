@@ -3,6 +3,7 @@ use App\Http\Controllers\tb_productoController;
 use App\Http\Controllers\tb_pedidoController;
 use App\Http\Controllers\tb_dirigidoController;
 use App\Http\Controllers\ContactoController;
+use App\Http\Controllers\TbMediosPagosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,6 +21,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route::get('/pagos', function () {
+//     return view('medios_pago.crear');
+// });
+
 Auth::routes();
 
 Route::resource('contacto', ContactoController::class);
@@ -34,3 +39,5 @@ Route::resource('dirigidos', tb_dirigidoController::class);
  });
 
 // Route::get('/cubios/create', [TbCubiosController::class, 'create']);
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::resource('pagos', TbMediosPagosController::class);
