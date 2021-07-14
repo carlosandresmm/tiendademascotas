@@ -118,10 +118,10 @@
                             Opciones
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Productos</a>
+                            <a class="dropdown-item" href="{{ url('home') }}">Productos</a>
                             <a class="dropdown-item" href="#">Servicios</a>
                             <a class="dropdown-item" href="#">Domicilios</a>
-                            <a class="dropdown-item" href="#">Tips</a>
+                            <a class="dropdown-item" href="{{ url('tips') }}">Tips</a>
                         </div>
                     </li>
                     <li class="nav-item">

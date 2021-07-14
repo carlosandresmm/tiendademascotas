@@ -29,3 +29,8 @@ Route::resource('home', tb_productoController::class);
 Route::get('admin_productos', [tb_productoController::class, 'admin'] );
 Route::resource('pedidos', tb_pedidoController::class); 
 Route::resource('dirigidos', tb_dirigidoController::class); 
+ Route::get('/tips', function () {
+ return view('productos.TIPS');
+ });
+
+// Route::get('/cubios/create', [TbCubiosController::class, 'create']);
