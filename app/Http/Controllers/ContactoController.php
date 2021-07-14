@@ -14,7 +14,8 @@ class ContactoController extends Controller
      */
     public function index()
     {
-    return view('contacto.index');
+          $usuarios=Contacto::paginate(1);
+          return view('contacto.index',compact('usuarios'));
     }
 
     /**
@@ -37,7 +38,7 @@ class ContactoController extends Controller
     {
         $data = request()->except('_token');
         contacto::insert($data);
-        return view('home');
+        return view('bienvenida');
     }
 
     /**
@@ -57,9 +58,11 @@ class ContactoController extends Controller
      * @param  \App\Models\Contacto  $contacto
      * @return \Illuminate\Http\Response
      */
-    public function edit(Contacto $contacto)
+    public function edit($id)
     {
-        //
+        $usuario=Contacto::findOrFail($id);
+        //$datosEmpleado = request()->except('_token',);
+        return view('contacto.edit',compact('usuario'));
     }
 
     /**
@@ -69,9 +72,13 @@ class ContactoController extends Controller
      * @param  \App\Models\Contacto  $contacto
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Contacto $contacto)
+    public function update(Request $request,$id)
     {
         //
+        $data = request()->except(['_token','_method']);
+        Contacto::where('id','=','$id')->update($data);
+        $usuario=Contacto::findOrFail($id);
+        return view('contacto.edit',compact('usuario'));
     }
 
     /**

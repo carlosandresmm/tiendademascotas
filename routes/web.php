@@ -23,7 +23,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::resource('contacto', ContactoController::class);
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/bienvenida', [App\Http\Controllers\HomeController::class, 'index'])->name('bienvenida');
 
 Route::resource('home', tb_productoController::class); 
 Route::get('admin_productos', [tb_productoController::class, 'admin'] );
