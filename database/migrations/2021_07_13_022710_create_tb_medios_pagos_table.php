@@ -22,7 +22,7 @@ class CreateTbMediosPagosTable extends Migration
             $table->string('Pago_Internet');
             $table->string('Pago_App_Movil');
             $table->integer('Valor');
-            $table->text('imagen');
+            $table->text('imagen')->nullable();
             $table->timestamps();
         });
     }
