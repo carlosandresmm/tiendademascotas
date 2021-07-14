@@ -25,7 +25,13 @@ Route::get('/', function () {
 //     return view('medios_pago.crear');
 // });
 
+Route::get('/marca', function () {
+    return view('marca.index');
+});
+
 Auth::routes();
+
+Route::resource('marca', tb_marcaController::class);
 
 Route::resource('contacto', ContactoController::class);
 Route::get('/bienvenida', [App\Http\Controllers\HomeController::class, 'index'])->name('bienvenida');

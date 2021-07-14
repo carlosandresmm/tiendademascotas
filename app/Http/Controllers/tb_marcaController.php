@@ -14,7 +14,8 @@ class tb_marcaController extends Controller
      */
     public function index()
     {
-        //
+        $datos['marca'] = tb_marca::paginate(5);
+        return view('marca.index',$datos);
     }
 
     /**
@@ -24,7 +25,8 @@ class tb_marcaController extends Controller
      */
     public function create()
     {
-        //
+        return view('marca.crear');
+    }
     }
 
     /**
@@ -35,7 +37,11 @@ class tb_marcaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $dato_marca = request()->except("_token");
+        
+        tb_marca::insert($dato_marca);
+        //return response()->json($dato_marca); 
+        return redirect('marca');
     }
 
     /**
@@ -57,7 +63,9 @@ class tb_marcaController extends Controller
      */
     public function edit(tb_marca $tb_marca)
     {
-        //
+        $dato_marca = tb_marca::finOrFail($id);
+        return view ('marca.editar',compact('dato_marca'));
+
     }
 
     /**
@@ -69,7 +77,13 @@ class tb_marcaController extends Controller
      */
     public function update(Request $request, tb_marca $tb_marca)
     {
-        //
+        $data_update = request()->except("_token","_method ");
+
+        if($request->hasFile('imagen')){
+            $marca = tb_marca::findOrFail($id);
+            storage::delete('public/' . $marca->imagen);
+
+            $data_update['imagen']=$request->file('imagen')->store('uploads','public');
     }
 
     /**
@@ -80,6 +94,10 @@ class tb_marcaController extends Controller
      */
     public function destroy(tb_marca $tb_marca)
     {
-        //
+        $data_marca = tb_marca::finOrFail($id);
+        if(storage::delete('public/'.$data_marco->imagen)){
+            tb_marca::destroy($id);
+        }
+        return redirect('marca');
     }
 }
