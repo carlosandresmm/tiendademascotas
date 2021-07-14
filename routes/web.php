@@ -18,11 +18,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/pagos', function () {
-    return view('medios_pago.crear');
-});
+// Route::get('/pagos', function () {
+//     return view('medios_pago.crear');
+// });
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('contacto', ContactoController::class);
+Route::resource('pagos', TbMediosPagosController::class);

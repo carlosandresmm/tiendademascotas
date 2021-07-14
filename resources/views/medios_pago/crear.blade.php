@@ -3,7 +3,7 @@
 
 
 @section('content')
-<form action="{{ url('/medios_pago') }}"method="POST" enctype="multipart/form-data">
+<form action="{{ url('/pagos') }}"method="POST" enctype="multipart/form-data">
 @csrf
 <label for="moneda">Moneda</label>
 <input type="text" name="moneda" id="moneda">

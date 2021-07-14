@@ -16,7 +16,7 @@ class CreateTbMediosPagosTable extends Migration
         Schema::create('tb_medios_pagos', function (Blueprint $table) {
             $table->id();
             $table->string('Moneda');
-            $table->boolean('Pago_Fisico')->default('0');
+            $table->string('Pago_Fisico');
             $table->string('Tarjeta');
             $table->text('Banco');
             $table->string('Pago_Internet');

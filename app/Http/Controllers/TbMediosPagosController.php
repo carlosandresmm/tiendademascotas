@@ -36,7 +36,7 @@ class TbMediosPagosController extends Controller
     public function store(Request $request)
     {
         $data = request()->except('_token');
-        contacto::insert($data);
+        tb_medios_pagos::insert($data);
         return view('home');
     }
 
