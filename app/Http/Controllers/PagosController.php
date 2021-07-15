@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\tb_medios_pagos;
+use App\Models\pagos;
 use Illuminate\Http\Request;
 
-class TbMediosPagosController extends Controller
+class PagosController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class TbMediosPagosController extends Controller
      */
     public function index()
     {
-        return view('medios_pago.index');
+         return view('medios_pago.crear');
     }
 
     /**
@@ -43,10 +43,10 @@ class TbMediosPagosController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\tb_medios_pagos  $tb_medios_pagos
+     * @param  \App\Models\pagos  $pagos
      * @return \Illuminate\Http\Response
      */
-    public function show(tb_medios_pagos $tb_medios_pagos)
+    public function show(pagos $pagos)
     {
         //
     }
@@ -54,10 +54,10 @@ class TbMediosPagosController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\tb_medios_pagos  $tb_medios_pagos
+     * @param  \App\Models\pagos  $pagos
      * @return \Illuminate\Http\Response
      */
-    public function edit(tb_medios_pagos $tb_medios_pagos)
+    public function edit(pagos $pagos)
     {
         //
     }
@@ -66,10 +66,10 @@ class TbMediosPagosController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\tb_medios_pagos  $tb_medios_pagos
+     * @param  \App\Models\pagos  $pagos
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, tb_medios_pagos $tb_medios_pagos)
+    public function update(Request $request, pagos $pagos)
     {
         //
     }
@@ -77,10 +77,10 @@ class TbMediosPagosController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\tb_medios_pagos  $tb_medios_pagos
+     * @param  \App\Models\pagos  $pagos
      * @return \Illuminate\Http\Response
      */
-    public function destroy(tb_medios_pagos $tb_medios_pagos)
+    public function destroy(pagos $pagos)
     {
         //
     }
