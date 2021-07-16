@@ -40,7 +40,7 @@
                         </div>
 
 
-                    </header >
+                    </header>
                     <div class="divider-custom-icon"><i class="fas fa-bone"></i></div>
                     <hr>
                     <section class="page-section portfolio" id="portfolio">
@@ -56,7 +56,7 @@
                                         <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    
+
                                     <!-- Portfolio  Items-->
                                     <div class="row justify-content-center col-12 ml-1">
 
@@ -69,40 +69,42 @@
                                                 </p>
                                             </div>
                                             <ul class="list-group list-group-flush">
-                                               
+
                                                 <li class="list-group-item">Peso: 1000g</li>
                                                 <li class="list-group-item">Precio: $ 25.000</li>
                                             </ul>
                                             <div class="card-body">
-                                                <a href="#"  class="btn btn-danger">Detalle</a>
+                                                <a href="#" class="btn btn-danger">Detalle</a>
                                                 <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                             </div>
                                         </div>
 
                                         <div class="card " style="width: 16.5rem;height: 30rem; margin:10px ">
-                                            <img src="{{ asset('imagen/mirringo.jpg') }}" class="card-img-top" alt="..."  style="width: 300px;height:230px">
+                                            <img src="{{ asset('imagen/mirringo.jpg') }}" class="card-img-top" alt="..."
+                                                style="width: 300px;height:230px">
                                             <div class="card-body">
                                                 <h6 class="card-title text-primary">Mirringo</h6>
                                                 <p class="card-text text-primary">
-                                                    <h6  class="card-title text-primary">Adultos 1-6</h6>
-                                                    </p>
+                                                <h6 class="card-title text-primary">Adultos 1-6</h6>
+                                                </p>
                                             </div>
                                             <ul class="list-group list-group-flush">
-                                                
+
                                                 <li class="list-group-item">Peso: 1000g</li>
                                                 <li class="list-group-item">Precio: $ 15.000</li>
                                             </ul>
                                             <div class="card-body">
-                                                <a href="#"  class="btn btn-danger">Detalle</a>
+                                                <a href="#" class="btn btn-danger">Detalle</a>
                                                 <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 16.5rem;height: 30rem; margin:10px ">
-                                            <img src="{{ asset('imagen/sobres.jpg') }}" style="width: 300px;height:230px" class="card-img-top" alt="...">
+                                            <img src="{{ asset('imagen/sobres.jpg') }}" style="width: 300px;height:230px"
+                                                class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h6 class="card-title text-primary">Whiskas</h6>
                                                 <p class="card-text text-primary">
-                                                <h6  class="card-title text-primary">adulto 1+</h6>
+                                                <h6 class="card-title text-primary">adulto 1+</h6>
                                                 </p>
                                             </div>
                                             <ul class="list-group list-group-flush">
@@ -110,7 +112,7 @@
                                                 <li class="list-group-item">Precio: $ 8.000</li>
                                             </ul>
                                             <div class="card-body">
-                                                <a href="#"  class="btn btn-danger">Detalle</a>
+                                                <a href="#" class="btn btn-danger">Detalle</a>
                                                 <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                             </div>
                                         </div>
@@ -124,144 +126,146 @@
                                         <div class="card-body">
                                             <h6 class="card-title text-primary">Chunky</h6>
                                             <p class="card-text text-primary">
-                                            <h6  class="card-title text-primary">Adultos</h6>
+                                            <h6 class="card-title text-primary">Adultos</h6>
                                             </p>
                                         </div>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Peso: 20k</li>
-                                                <li class="list-group-item">Precio: $ 65.000</li>
+                                            <li class="list-group-item">Precio: $ 65.000</li>
                                         </ul>
                                         <div class="card-body">
-                                            <a href="#"  class="btn btn-danger">Detalle</a>
+                                            <a href="#" class="btn btn-danger">Detalle</a>
                                             <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                         </div>
                                     </div>
 
                                     <div class="card " style="width: 16.5rem;height: 30rem; margin:10px ">
-                                        <img src="{{ asset('imagen/ringo.jpg') }}" class="card-img-top" alt="..."  style="width: 300px;height:230px">
+                                        <img src="{{ asset('imagen/ringo.jpg') }}" class="card-img-top" alt="..."
+                                            style="width: 300px;height:230px">
                                         <div class="card-body">
                                             <h6 class="card-title text-primary">Ringo</h6>
                                             <p class="card-text text-primary">
-                                            <h6 class="card-title text-primary" >Edad avanzada</h6>
+                                            <h6 class="card-title text-primary">Edad avanzada</h6>
                                             </p>
                                         </div>
-                                        
+
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item ">Peso: 20k</li>
-                                                <li class="list-group-item">Precio: $ 95.000</li>
+                                            <li class="list-group-item">Precio: $ 95.000</li>
                                         </ul>
                                         <div class="card-body">
-                                            <a href="#"  class="btn btn-danger">Detalle</a>
+                                            <a href="#" class="btn btn-danger">Detalle</a>
                                             <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                         </div>
                                     </div>
                                     <div class="card" style="width: 16.5rem;height: 30rem; margin:10px ">
-                                        <img src="{{ asset('imagen/purinas.png') }}" style="width: 300px;height:230px" class="card-img-top" alt="...">
+                                        <img src="{{ asset('imagen/purinas.png') }}" style="width: 300px;height:230px"
+                                            class="card-img-top" alt="...">
                                         <div class="card-body">
-                                            <h6 class="card-title text-primary" >Pro Plan</h6>
+                                            <h6 class="card-title text-primary">Pro Plan</h6>
                                             <p class="card-text">
-                                            <h6  class="card-title text-primary">Cachorros</h6>
+                                            <h6 class="card-title text-primary">Cachorros</h6>
                                             </p>
                                         </div>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Peso: 4.5</li>
-                                                <li class="list-group-item">Precio: $ 45.000</li>
+                                            <li class="list-group-item">Precio: $ 45.000</li>
                                         </ul>
                                         <div class="card-body">
-                                            <a href="#"  class="btn btn-danger">Detalle</a>
+                                            <a href="#" class="btn btn-danger">Detalle</a>
                                             <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="divider-custom-icon"><i class="fas fa-bone"></i></div>
-                                
-                                <div class="container">
-                                    <hr>
-                                    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
-                                        Promociones</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
-                                        <div class="divider-custom-line"></div>
+
+                            <div class="container">
+                                <hr>
+                                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
+                                    Promociones</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+
+                                <!-- Portfolio Item 1-->
+                                <div class="container" style="display: flex;flex-wrap: wrap;justify-content:space-around;">
+                                    <!-- Portfolio Item 1-->
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                            data-bs-target="#portfolioModal1">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+
+                                            </div>
+                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                                style="border-radius: 50%;cursor: pointer;" />
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item 2-->
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                            data-bs-target="#portfolioModal2">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+
+                                            </div>
+                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                                style="border-radius: 50%;cursor: pointer;" />
+                                        </div>
                                     </div>
 
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                            data-bs-target="#portfolioModal1">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
 
-                                    <!-- Portfolio Item 1-->
-                                    <div class="container" style="display: flex;flex-wrap: wrap;justify-content:space-around;" >
-                                        <!-- Portfolio Item 1-->
-                                        <div class="col-md-6 col-lg-4 mb-5">
-                                            <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                data-bs-target="#portfolioModal1">
-                                                <div
-                                                    class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-    
-                                                </div>
-                                                <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                    style="border-radius: 50%;cursor: pointer;" />
                                             </div>
+                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                                style="border-radius: 50%;cursor: pointer;" />
                                         </div>
-                                        <!-- Portfolio Item 2-->
-                                        <div class="col-md-6 col-lg-4 mb-5">
-                                            <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                data-bs-target="#portfolioModal2">
-                                                <div
-                                                    class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-    
-                                                </div>
-                                                <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                    style="border-radius: 50%;cursor: pointer;" />
+                                    </div>
+                                    <!-- Portfolio Item 2-->
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                            data-bs-target="#portfolioModal2">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+
                                             </div>
+                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                                style="border-radius: 50%;cursor: pointer;" />
                                         </div>
-    
-                                        <div class="col-md-6 col-lg-4 mb-5">
-                                            <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                data-bs-target="#portfolioModal1">
-                                                <div
-                                                    class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-    
-                                                </div>
-                                                <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                    style="border-radius: 50%;cursor: pointer;" />
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                            data-bs-target="#portfolioModal1">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+
                                             </div>
+                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                                style="border-radius: 50%;cursor: pointer;" />
                                         </div>
-                                        <!-- Portfolio Item 2-->
-                                        <div class="col-md-6 col-lg-4 mb-5">
-                                            <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                data-bs-target="#portfolioModal2">
-                                                <div
-                                                    class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-    
-                                                </div>
-                                                <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                    style="border-radius: 50%;cursor: pointer;" />
+                                    </div>
+                                    <!-- Portfolio Item 2-->
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                            data-bs-target="#portfolioModal2">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+
                                             </div>
+                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                                style="border-radius: 50%;cursor: pointer;" />
                                         </div>
-    
-                                        <div class="col-md-6 col-lg-4 mb-5">
-                                            <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                data-bs-target="#portfolioModal1">
-                                                <div
-                                                    class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-    
-                                                </div>
-                                                <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                    style="border-radius: 50%;cursor: pointer;" />
-                                            </div>
-                                        </div>
-                                        <!-- Portfolio Item 2-->
-                                        <div class="col-md-6 col-lg-4 mb-5">
-                                            <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                data-bs-target="#portfolioModal2">
-                                                <div
-                                                    class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-    
-                                                </div>
-                                                <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                    style="border-radius: 50%;cursor: pointer;" />
-                                            </div>
-                                        </div>
+                                    </div>
 
                     </section>
                     <!-- About Section-->
@@ -352,30 +356,48 @@
         <div class="container" style="height: 50%">
             <div class="row">
                 <!-- Footer Location-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">LOCALIZACIÓN</h4>
-                    <p class="lead mb-0">
-                        2215 John Daniel Drive
-                        <br />
-                        Clark, MO 65243
-                    </p>
-                </div>
-                <!-- Footer Social Icons-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">VISITANOS EN:</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                <div class="col-lg-4 mb-5 mb-lg-0"><br>
+                    <h4 class="text-uppercase mb-4">UBICACION</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.991467992802!2d-74.07973208591!3d4.595550443841583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9907a27ef9a7%3A0xdfeeb4b3241959e6!2sPresidencia%20de%20la%20Rep%C3%BAblica%20de%20Colombia!5e0!3m2!1ses!2sco!4v1626397764439!5m2!1ses!2sco"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <br><br>
+                </div> <!-- Footer Social Icons-->
+                <div class="col-4">
+                    <div style="height: 100%" class="d-flex justify-content-center align-items-center">
+                        <ul class="lista-redes-footer">
+                            <li>
+                                <a href="https://www.facebook.com/" class="facebook"><i
+                                        class="icon-red fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" class="twitter"><i class="icon-red fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/" class="youtube"><i
+                                        class="icon-red fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/" class="linkedin"><i
+                                        class="icon-red fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" class="instagram"><i
+                                        class="icon-red fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
-                    <h4 class="text-uppercase mb-4">XXXXXXXXXXXXXXXXXXXX</h4>
-                    <p class="lead mb-0">
-                        FZDZGZGZFDHZFHZFH
-                        .
-                    </p>
-                </div>
+                    <br><br><br>
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">No olvides...</div>
+                        <div class="card-body">
+                          <h5 class="card-title">Milu Pet Shop</h5>
+                          <p class="card-text">Somos tu mejor opción en tienda de mascotas, no solo por tener los mejores precios y ofertas si no por que hemos seleccionado las mejores marcas para nuestro Pet Shop. Disfruta del mejor servicio de entrega a domicilio de productos de tienda para mascotas en Bogotá.</p>
+                        </div>
+                      </div>                </div>
             </div>
         </div>
 
