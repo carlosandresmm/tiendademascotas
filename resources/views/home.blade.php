@@ -621,7 +621,7 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="{{ asset('imagen\pelosperro.jpg') }}"
+                                <img class="img-fluid rounded mb-5" src="{{ asset('imagen\peluqueria.jpg') }}"
                                     alt="..." />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">
