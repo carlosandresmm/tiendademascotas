@@ -36,8 +36,9 @@ class PagosController extends Controller
     public function store(Request $request)
     {
         $data = request()->except('_token');
-        tb_medios_pagos::insert($data);
-        return view('home');
+        pagos::insert($data);
+        $alerta = true;
+        return view('home', compact('alerta'));
     }
 
     /**

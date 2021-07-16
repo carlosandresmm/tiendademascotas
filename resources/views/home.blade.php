@@ -3,6 +3,11 @@
 
 
 @section('content')
+@if (isset($alerta))
+    <script>
+        Swal.fire('Pago confirmado')
+    </script>
+@endif
     <div class="container">
         <div class="row justify-content-center">
             <div class="">

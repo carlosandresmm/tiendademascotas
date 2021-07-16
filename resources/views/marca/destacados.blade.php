@@ -1,9 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>NUESTRAS MARCAS DESTACADAS</h1>
+    
 
     <div class="container">
+        <h1>NUESTRAS MARCAS ALIADAS</h1>
+        <br>
+        <hr>
         <div class="card-deck">
             <div class="card">
                 <img src="{{ asset('imagen/descarga1.jpeg') }}" class="card-img-top" alt="...">
