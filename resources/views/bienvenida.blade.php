@@ -3,6 +3,7 @@
 
 
 @section('content')
+<link rel="stylesheet" href="../resources\css\footer.css.css">
     <div class="container">
         <div class="row justify-content-center">
             <div class="">
@@ -79,7 +80,8 @@
                                         </div>
 
                                         <div class="card " style="width: 15rem;margin:20px ">
-                                            <img src="{{ asset('imagen/mirringo.jpg') }}" class="card-img-top" alt="..."  style="width: 300px;height:230px">
+                                            <img src="{{ asset('imagen/mirringo.jpg') }}" class="card-img-top" alt="..."
+                                                style="width: 300px;height:230px">
                                             <div class="card-body">
                                                 <h6 class="card-title">Card title</h6>
                                                 <p class="card-text">
@@ -97,7 +99,8 @@
                                             </div>
                                         </div>
                                         <div class="card" style="width: 15rem;margin:20px ">
-                                            <img src="{{ asset('imagen/sobres.jpg') }}" style="width: 300px;height:230px" class="card-img-top" alt="...">
+                                            <img src="{{ asset('imagen/sobres.jpg') }}" style="width: 300px;height:230px"
+                                                class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h6 class="card-title">Card title</h6>
                                                 <p class="card-text">
@@ -139,7 +142,8 @@
                                     </div>
 
                                     <div class="card " style="width: 15rem;margin:20px ">
-                                        <img src="{{ asset('imagen/mirringo.jpg') }}" class="card-img-top" alt="..."  style="width: 300px;height:230px">
+                                        <img src="{{ asset('imagen/mirringo.jpg') }}" class="card-img-top" alt="..."
+                                            style="width: 300px;height:230px">
                                         <div class="card-body">
                                             <h6 class="card-title">Card title</h6>
                                             <p class="card-text">
@@ -157,7 +161,8 @@
                                         </div>
                                     </div>
                                     <div class="card" style="width: 15rem;margin:20px ">
-                                        <img src="{{ asset('imagen/sobres.jpg') }}" style="width: 300px;height:230px" class="card-img-top" alt="...">
+                                        <img src="{{ asset('imagen/sobres.jpg') }}" style="width: 300px;height:230px"
+                                            class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h6 class="card-title">Card title</h6>
                                             <p class="card-text">
@@ -177,143 +182,143 @@
                                 </div>
                             </div>
 
-                                
 
-                                <div class="container" style="margin-top: 10px">
-                                    <div class="card-group">
-                                        <div class="card" style="width: 15rem;margin-right: 20px; margin-left:20px ">
-                                            <img src="{{ asset('img/sheba.jpg') }}" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">MARCA PREMIUM</h5>
-                                                <p class="card-text">Agua suficiente para proceso, carne de pescado blanco,
-                                                    hígado de cerdo, carne de pollo, gluten de trigo, carne de pavo, hígado
-                                                    de cerdo, carne de pollo, gluten de trigo, vísceras de cerdo, carne de
-                                                    salmón, almidón de maíz modificado, harina de soya, concentrado de
-                                                    proteína de soya, fosfato tricálcico, cloruro de potasio, taurina,
-                                                    cloruro de colina, sal, mononitrato de tiamina, sulfato de zinc,
-                                                    suplemento de vitamina E.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <small class="text-muted">50% De DESCUENTO</small>
-                                            </div>
+
+                            <div class="container" style="margin-top: 10px">
+                                <div class="card-group">
+                                    <div class="card" style="width: 15rem;margin-right: 20px; margin-left:20px ">
+                                        <img src="{{ asset('img/sheba.jpg') }}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">MARCA PREMIUM</h5>
+                                            <p class="card-text">Agua suficiente para proceso, carne de pescado blanco,
+                                                hígado de cerdo, carne de pollo, gluten de trigo, carne de pavo, hígado
+                                                de cerdo, carne de pollo, gluten de trigo, vísceras de cerdo, carne de
+                                                salmón, almidón de maíz modificado, harina de soya, concentrado de
+                                                proteína de soya, fosfato tricálcico, cloruro de potasio, taurina,
+                                                cloruro de colina, sal, mononitrato de tiamina, sulfato de zinc,
+                                                suplemento de vitamina E.</p>
                                         </div>
-                                        <div class="card" style="width: 15rem;margin-right: 10px; margin-left:10px ">
-                                            <img src="{{ asset('img/tres.jpg') }}" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">CACHORROS</h5>
-                                                <p class="card-text">Junior es una sabrosa receta rica en Pollo y con un
-                                                    alto nivel de proteínas para alimentar el crecimiento saludable de tu
-                                                    cachorro de 1 a 12 meses. Elaborado con ingredientes de alta calidad,
-                                                    que le ayudará al desarrollo de las defensas naturales y unos dientes y
-                                                    huesos fuertes.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <small class="text-muted">60% De DESCUENTO en comida SECA</small>
-                                            </div>
+                                        <div class="card-footer">
+                                            <small class="text-muted">50% De DESCUENTO</small>
                                         </div>
-                                        <div class="card" style="width: 15rem;margin-right: 10px; margin-left:10px ">
-                                            <img src="{{ asset('img/dos.jpg') }}" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">GATOS & PERROS</h5>
-                                                <p class="card-text">En nuestra tienda podrás encontrar todo tipo de comida
-                                                    para tus mascotas, contamos con una gran variedad de productos tanto
-                                                    nacionales como importados de las mejores marcas y de la mejor calidad.
-                                                </p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <small class="text-muted">APROVECHA NUESTROS DESCUENTOS</small>
-                                            </div>
+                                    </div>
+                                    <div class="card" style="width: 15rem;margin-right: 10px; margin-left:10px ">
+                                        <img src="{{ asset('img/tres.jpg') }}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CACHORROS</h5>
+                                            <p class="card-text">Junior es una sabrosa receta rica en Pollo y con un
+                                                alto nivel de proteínas para alimentar el crecimiento saludable de tu
+                                                cachorro de 1 a 12 meses. Elaborado con ingredientes de alta calidad,
+                                                que le ayudará al desarrollo de las defensas naturales y unos dientes y
+                                                huesos fuertes.</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <small class="text-muted">60% De DESCUENTO en comida SECA</small>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 15rem;margin-right: 10px; margin-left:10px ">
+                                        <img src="{{ asset('img/dos.jpg') }}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GATOS & PERROS</h5>
+                                            <p class="card-text">En nuestra tienda podrás encontrar todo tipo de comida
+                                                para tus mascotas, contamos con una gran variedad de productos tanto
+                                                nacionales como importados de las mejores marcas y de la mejor calidad.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <small class="text-muted">APROVECHA NUESTROS DESCUENTOS</small>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
 
-                                <div class="container"  >
-                                    <hr>
-                                    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
-                                        Promociones</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
-                                        <div class="divider-custom-line"></div>
+                            <div class="container">
+                                <hr>
+                                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
+                                    Promociones</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                            </div>
+
+
+                            <div class="container" style="display: flex;flex-wrap: wrap;justify-content:space-around;">
+                                <!-- Portfolio Item 1-->
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal1">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+
+                                        </div>
+                                        <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                            style="border-radius: 50%;cursor: pointer;" />
+                                    </div>
+                                </div>
+                                <!-- Portfolio Item 2-->
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal2">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+
+                                        </div>
+                                        <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                            style="border-radius: 50%;cursor: pointer;" />
                                     </div>
                                 </div>
 
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal1">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
 
-                                    <div class="container" style="display: flex;flex-wrap: wrap;justify-content:space-around;" >
-                                    <!-- Portfolio Item 1-->
-                                    <div class="col-md-6 col-lg-4 mb-5">
-                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                            data-bs-target="#portfolioModal1">
-                                            <div
-                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-
-                                            </div>
-                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                style="border-radius: 50%;cursor: pointer;" />
                                         </div>
+                                        <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                            style="border-radius: 50%;cursor: pointer;" />
                                     </div>
-                                    <!-- Portfolio Item 2-->
-                                    <div class="col-md-6 col-lg-4 mb-5">
-                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                            data-bs-target="#portfolioModal2">
-                                            <div
-                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                </div>
+                                <!-- Portfolio Item 2-->
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal2">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
 
-                                            </div>
-                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                style="border-radius: 50%;cursor: pointer;" />
                                         </div>
+                                        <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                            style="border-radius: 50%;cursor: pointer;" />
                                     </div>
+                                </div>
 
-                                    <div class="col-md-6 col-lg-4 mb-5">
-                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                            data-bs-target="#portfolioModal1">
-                                            <div
-                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal1">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
 
-                                            </div>
-                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                style="border-radius: 50%;cursor: pointer;" />
                                         </div>
+                                        <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                            style="border-radius: 50%;cursor: pointer;" />
                                     </div>
-                                    <!-- Portfolio Item 2-->
-                                    <div class="col-md-6 col-lg-4 mb-5">
-                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                            data-bs-target="#portfolioModal2">
-                                            <div
-                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                </div>
+                                <!-- Portfolio Item 2-->
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal2">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
 
-                                            </div>
-                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                style="border-radius: 50%;cursor: pointer;" />
                                         </div>
+                                        <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
+                                            style="border-radius: 50%;cursor: pointer;" />
                                     </div>
-
-                                    <div class="col-md-6 col-lg-4 mb-5">
-                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                            data-bs-target="#portfolioModal1">
-                                            <div
-                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-
-                                            </div>
-                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                style="border-radius: 50%;cursor: pointer;" />
-                                        </div>
-                                    </div>
-                                    <!-- Portfolio Item 2-->
-                                    <div class="col-md-6 col-lg-4 mb-5">
-                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                            data-bs-target="#portfolioModal2">
-                                            <div
-                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-
-                                            </div>
-                                            <img class="img-fluid" src="{{ asset('imagen/imagen1.jpg') }}" alt="..."
-                                                style="border-radius: 50%;cursor: pointer;" />
-                                        </div>
-                                    </div>
+                                </div>
 
                     </section>
                     <!-- About Section-->
@@ -419,14 +424,18 @@
                     </p>
                 </div>
                 <!-- Footer Social Icons-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">VISITANOS EN:</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                </div>
-                <!-- Footer About Text-->
+                <div class="redes-container">
+                    <ul>
+                        <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div> <!-- Footer About Text-->
                 <div class="col-lg-4">
                     <h4 class="text-uppercase mb-4">XXXXXXXXXXXXXXXXXXXX</h4>
                     <p class="lead mb-0">
@@ -444,82 +453,94 @@
     </footer>
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
         aria-hidden="true">
-        <div class="modal-dialog modal-xl" >
-            <div class="modal-content" style="background-color: rgba(134, 204, 186, 0.918)!important;width:600px;height:500px; ">
-                <div class="modal-header border-0"><button class="btn btn-outline-warning" href="#!" data-bs-dismiss="modal" >
-                    <i class="fas fa-paw"></i>
-                    Mas productos
-                </button>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">DOGCHOW</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="{{ asset('imagen/imagen1.jpg') }}" alt="..." />
-                                <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                   
-                                </p>
-                                <button class="btn btn-outline-danger" href="#!" data-bs-dismiss="modal">
-                                    <i class="fas fa-paw"></i>
-                                    Comprar !
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Modal 2-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl" >
-        <div class="modal-content" style="background-color: rgba(134, 204, 186, 0.918)!important;width:600px;height:500px; ">
-            <div class="modal-header border-0"><button class="btn btn-outline-warning" href="#!" data-bs-dismiss="modal" >
-                <i class="fas fa-paw"></i>
-                Mas productos
-            </button>
-            <div class="modal-body text-center pb-5">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <!-- Portfolio Modal - Title-->
-                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">DOGCHOW</h2>
-                            <!-- Icon Divider-->
-                            <div class="divider-custom">
-                                <div class="divider-custom-line"></div>
-                                <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
-                                <div class="divider-custom-line"></div>
-                            </div>
-                            <!-- Portfolio Modal - Image-->
-                            <img class="img-fluid rounded mb-5" src="{{ asset('imagen/imagen1.jpg') }}" alt="..." />
-                            <!-- Portfolio Modal - Text-->
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                               
-                            </p>
-                            <button class="btn btn-outline-danger" href="#!" data-bs-dismiss="modal">
-                                <i class="fas fa-paw"></i>
-                                Comprar !
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content"
+                style="background-color: rgba(134, 204, 186, 0.918)!important;width:600px;height:500px; ">
+                <div class="modal-header border-0"><button class="btn btn-outline-warning" href="#!"
+                        data-bs-dismiss="modal">
+                        <i class="fas fa-paw"></i>
+                        Mas productos
+                    </button>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">DOGCHOW</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="{{ asset('imagen/imagen1.jpg') }}"
+                                        alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
 
-    </body>
-@endsection
+                                    </p>
+                                    <button class="btn btn-outline-danger" href="#!" data-bs-dismiss="modal">
+                                        <i class="fas fa-paw"></i>
+                                        Comprar !
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content"
+                    style="background-color: rgba(134, 204, 186, 0.918)!important;width:600px;height:500px; ">
+                    <div class="modal-header border-0"><button class="btn btn-outline-warning" href="#!"
+                            data-bs-dismiss="modal">
+                            <i class="fas fa-paw"></i>
+                            Mas productos
+                        </button>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">DOGCHOW</h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div class="divider-custom-line"></div>
+                                            <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
+                                            <div class="divider-custom-line"></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img class="img-fluid rounded mb-5" src="{{ asset('imagen/imagen1.jpg') }}"
+                                            alt="..." />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+                                            neque
+
+                                        </p>
+                                        <button class="btn btn-outline-danger" href="#!" data-bs-dismiss="modal">
+                                            <i class="fas fa-paw"></i>
+                                            Comprar !
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="../js/registro.js"></script>
+            <script src="../js/logica.js"></script>
+            <script src="../js/jquery-3.6.0.min.js"></script>
+            <script src="../js/popper.min.js"></script>
+            <script src="../js/sweetalert2@10.js"></script>
+            <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+            <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+            </body>
+        @endsection
