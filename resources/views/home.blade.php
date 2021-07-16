@@ -371,14 +371,18 @@
                     </p>
                 </div>
                 <!-- Footer Social Icons-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">VISITANOS EN:</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                </div>
-                <!-- Footer About Text-->
+                <div class="redes-container">
+                    <ul>
+                        <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>                <!-- Footer About Text-->
                 <div class="col-lg-4">
                     <h4 class="text-uppercase mb-4">XXXXXXXXXXXXXXXXXXXX</h4>
                     <p class="lead mb-0">

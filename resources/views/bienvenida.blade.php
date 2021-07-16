@@ -3,7 +3,7 @@
 
 
 @section('content')
-<link rel="stylesheet" href="../resources\css\footer.css.css">
+<link rel="stylesheet" href="../resources/css/footer.css">
     <div class="container">
         <div class="row justify-content-center">
             <div class="">
@@ -533,8 +533,6 @@
                     </div>
                 </div>
             </div>
-            <script src="../js/registro.js"></script>
-            <script src="../js/logica.js"></script>
             <script src="../js/jquery-3.6.0.min.js"></script>
             <script src="../js/popper.min.js"></script>
             <script src="../js/sweetalert2@10.js"></script>
