@@ -9,7 +9,7 @@
             <section class="page-section" id="contact">
 
                 <div class="container"
-                    style="background-color: rgba(134, 204, 186, 0.918)!important; width:700px;height:480px;border-radius: 5%">
+                    style="background-color: rgba(134, 204, 186, 0.918)!important; width:700px;height:580px;border-radius: 5%">
                     
                     <h5 class="page-section-heading text-center text-uppercase text-secondary mb-0">Por favor seleccione la informacion para su pago y al final adjunte su soporte</h5>
                     <!-- Icon Divider-->
@@ -81,7 +81,7 @@
                     <label for="imagen">Adjunte su soporte de pago</label><br>
                     <input type="file" name="imagen" id="imagen">
                     <br><br>
-                    <button type="submit">Enviar</button>
+                    <button type="submit" style="border-radius: 45%">Enviar</button>
     </form>
 </div>
 </div>

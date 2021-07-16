@@ -3,11 +3,11 @@
 
 
 @section('content')
-@if (isset($alerta))
-    <script>
-        Swal.fire('Pago confirmado')
-    </script>
-@endif
+    @if (isset($alerta))
+        <script>
+            Swal.fire('Pago confirmado')
+        </script>
+    @endif
     <div class="container">
         <div class="row justify-content-center">
             <div class="">
@@ -44,7 +44,7 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
-                        
+
 
                     </header>
                     <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
@@ -60,7 +60,7 @@
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-bone"></i></div>
-                                        
+
                                     </div>
                                     <!-- Portfolio  Items-->
                                     <div class="row justify-content-center col-12 ml-1">
@@ -74,40 +74,42 @@
                                                 </p>
                                             </div>
                                             <ul class="list-group list-group-flush">
-                                               
+
                                                 <li class="list-group-item">Peso: 1000g</li>
                                                 <li class="list-group-item">Precio: $ 25.000</li>
                                             </ul>
                                             <div class="card-body">
-                                                <a href="#"  class="btn btn-danger">Detalle</a>
+                                                <a href="#" class="btn btn-danger">Detalle</a>
                                                 <a href="#" class="btn btn-success">Agregar al carrito</a>
                                             </div>
                                         </div>
 
                                         <div class="card " style="width: 16.5rem;height: 30rem; margin:10px ">
-                                            <img src="{{ asset('imagen/mirringo.jpg') }}" class="card-img-top" alt="..."  style="width: 300px;height:230px">
+                                            <img src="{{ asset('imagen/mirringo.jpg') }}" class="card-img-top" alt="..."
+                                                style="width: 300px;height:230px">
                                             <div class="card-body">
                                                 <h6 class="card-title text-primary">Mirringo</h6>
                                                 <p class="card-text text-primary">
-                                                    <h6  class="card-title text-primary">Adultos 1-6</h6>
-                                                    </p>
+                                                <h6 class="card-title text-primary">Adultos 1-6</h6>
+                                                </p>
                                             </div>
                                             <ul class="list-group list-group-flush">
-                                                
+
                                                 <li class="list-group-item">Peso: 1000g</li>
                                                 <li class="list-group-item">Precio: $ 15.000</li>
                                             </ul>
                                             <div class="card-body">
-                                                <a href="#"  class="btn btn-danger">Detalle</a>
+                                                <a href="#" class="btn btn-danger">Detalle</a>
                                                 <a href="#" class="btn btn-success">Agregar al carrito</a>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 16.5rem;height: 30rem; margin:10px ">
-                                            <img src="{{ asset('imagen/sobres.jpg') }}" style="width: 300px;height:230px" class="card-img-top" alt="...">
+                                            <img src="{{ asset('imagen/sobres.jpg') }}" style="width: 300px;height:230px"
+                                                class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h6 class="card-title text-primary">Whiskas</h6>
                                                 <p class="card-text text-primary">
-                                                <h6  class="card-title text-primary">adulto 1+</h6>
+                                                <h6 class="card-title text-primary">adulto 1+</h6>
                                                 </p>
                                             </div>
                                             <ul class="list-group list-group-flush">
@@ -115,7 +117,7 @@
                                                 <li class="list-group-item">Precio: $ 8.000</li>
                                             </ul>
                                             <div class="card-body">
-                                                <a href="#"  class="btn btn-danger">Detalle</a>
+                                                <a href="#" class="btn btn-danger">Detalle</a>
                                                 <a href="#" class="btn btn-success">Agregar al carrito</a>
                                             </div>
                                         </div>
@@ -129,161 +131,162 @@
                                         <div class="card-body">
                                             <h6 class="card-title text-primary">Chunky</h6>
                                             <p class="card-text text-primary">
-                                            <h6  class="card-title text-primary">Adultos</h6>
+                                            <h6 class="card-title text-primary">Adultos</h6>
                                             </p>
                                         </div>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Peso: 20k</li>
-                                                <li class="list-group-item">Precio: $ 65.000</li>
+                                            <li class="list-group-item">Precio: $ 65.000</li>
                                         </ul>
                                         <div class="card-body">
-                                            <a href="#"  class="btn btn-danger">Detalle</a>
+                                            <a href="#" class="btn btn-danger">Detalle</a>
                                             <a href="#" class="btn btn-success">Agregar al carrito</a>
                                         </div>
                                     </div>
 
                                     <div class="card " style="width: 16.5rem;height: 30rem; margin:10px ">
-                                        <img src="{{ asset('imagen/ringo.jpg') }}" class="card-img-top" alt="..."  style="width: 300px;height:230px">
+                                        <img src="{{ asset('imagen/ringo.jpg') }}" class="card-img-top" alt="..."
+                                            style="width: 300px;height:230px">
                                         <div class="card-body">
                                             <h6 class="card-title text-primary">Ringo</h6>
                                             <p class="card-text text-primary">
-                                            <h6 class="card-title text-primary" >Edad avanzada</h6>
+                                            <h6 class="card-title text-primary">Edad avanzada</h6>
                                             </p>
                                         </div>
-                                        
+
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item ">Peso: 20k</li>
-                                                <li class="list-group-item">Precio: $ 95.000</li>
+                                            <li class="list-group-item">Precio: $ 95.000</li>
                                         </ul>
                                         <div class="card-body">
-                                            <a href="#"  class="btn btn-danger">Detalle</a>
+                                            <a href="#" class="btn btn-danger">Detalle</a>
                                             <a href="#" class="btn btn-success">Agregar al carrito</a>
                                         </div>
                                     </div>
                                     <div class="card" style="width: 16.5rem;height: 30rem; margin:10px ">
-                                        <img src="{{ asset('imagen/purinas.png') }}" style="width: 300px;height:230px" class="card-img-top" alt="...">
+                                        <img src="{{ asset('imagen/purinas.png') }}" style="width: 300px;height:230px"
+                                            class="card-img-top" alt="...">
                                         <div class="card-body">
-                                            <h6 class="card-title text-primary" >Pro Plan</h6>
+                                            <h6 class="card-title text-primary">Pro Plan</h6>
                                             <p class="card-text">
-                                            <h6  class="card-title text-primary">Cachorros</h6>
+                                            <h6 class="card-title text-primary">Cachorros</h6>
                                             </p>
                                         </div>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Peso: 4.5</li>
-                                                <li class="list-group-item">Precio: $ 45.000</li>
+                                            <li class="list-group-item">Precio: $ 45.000</li>
                                         </ul>
                                         <div class="card-body">
-                                            <a href="#"  class="btn btn-danger">Detalle</a>
+                                            <a href="#" class="btn btn-danger">Detalle</a>
                                             <a href="#" class="btn btn-success">Agregar al carrito</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                                
 
 
 
-                                <div class="container"  >
-                                    <div class="divider-custom-icon"><i class="fas fa-bone"></i></div>
-                                    <hr>
-                                    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
-                                        Promociones</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
-                                        <div class="divider-custom-line"></div>
+
+                            <div class="container">
+                                <div class="divider-custom-icon"><i class="fas fa-bone"></i></div>
+                                <hr>
+                                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
+                                    Promociones</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- Portfolio Item 1-->
+                            <div class="container" style="display: flex;flex-wrap: wrap;justify-content:space-around;">
+                                <!-- Portfolio Item 1-->
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal1">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                        </div>
+                                        <img class="img-fluid" src="{{ asset('imagen/gatos.jpg') }}" alt="..."
+                                            style="border-radius: 50%;cursor: pointer;" />
+                                        <h6>EXCELENTES JUGETES PARA GATOS</h6>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal2" style="margin: 50%">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                        </div>
+                                        <img class="img-fluid" src="{{ asset('imagen/accesorios.jpg') }}" alt="..."
+                                            style="border-radius: 50%;cursor: pointer;" />
+                                        <h6>VARIEDAD DE ACCESORIOS PARA TU PERRO</h6>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal3">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                            <img class="img-fluid" src="{{ asset('imagen/disfraz.jpg') }}" alt="..."
+                                                style="border-radius: 50%;cursor: pointer;" />
+                                            <h6>DISFRACES PARA TU PERRO</h6>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <!-- Portfolio Item 2-->
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal4" style="margin: 10%">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+
+                                        </div>
+                                        <img class="img-fluid" src="{{ asset('imagen/bioseguro.jpg') }}" alt="..."
+                                            style="border-radius: 50%;cursor: pointer;" />
+                                        <h6>ELEMENTOS DE BIOSEGURIDAD COMPARTIDOS</h6>
+                                    </div>
+                                </div>
+                                <!-- Portfolio Item 2-->
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal5">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                            <img class="img-fluid" src="{{ asset('imagen/pomeriano.png') }}" alt="..."
+                                                style="border-radius: 50%;cursor: pointer;" />
+                                            <br>
+                                        </div>
+                                        <h6>10% DTO EN PELUQUEADAS PARES</h6>
+                                    </div>
+                                </div>
+                                <!-- Portfolio Item 2-->
+                                <div class="col-md-6 col-lg-4 mb-5">
+                                    <div class="portfolio-item mx-auto" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal6">
+                                        <div
+                                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+
+                                        </div>
+                                        <img class="img-fluid" src="{{ asset('imagen/gokugato.jpg') }}" alt="..."
+                                            style="border-radius: 50%;cursor: pointer;" />
+                                        <h6>ELEGANCIA PARA TU GATO</h6>
                                     </div>
                                 </div>
 
 
-                                    
-                                                                <!-- Portfolio Item 1-->
-                                                                <div class="container" style="display: flex;flex-wrap: wrap;justify-content:space-around;" >
-                                                                    <!-- Portfolio Item 1-->
-                                                                    <div class="col-md-6 col-lg-4 mb-5">
-                                                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                                            data-bs-target="#portfolioModal1">
-                                                                            <div
-                                                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                                                            </div>
-                                                                            <img class="img-fluid" src="{{ asset('imagen/gatos.jpg') }}" alt="..."
-                                                                                style="border-radius: 50%;cursor: pointer;" />
-                                                                            <h6>EXCELENTES JUGETES PARA GATOS</h6>
-                                                                            
-                                                                        </div>
-                                                                    </div>
-                                                                    
-                                                                    <div class="col-md-6 col-lg-4 mb-5">
-                                                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                                            data-bs-target="#portfolioModal2">
-                                                                            <div
-                                                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                                                            </div>
-                                                                            <img class="img-fluid" src="{{ asset('imagen/accesorios.jpg') }}" alt="..."
-                                                                            style="border-radius: 50%;cursor: pointer;" />
-                                                                            <h6>VARIEDAD DE ACCESORIOS PARA TU PERRO</h6>
-                                                                        </div>
-                                                                    </div>
-                                                                    
-                                                                    <div class="col-md-6 col-lg-4 mb-5">
-                                                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                                            data-bs-target="#portfolioModal3">
-                                                                            <div
-                                                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                                                                <img class="img-fluid" src="{{ asset('imagen/disfraz.jpg') }}" alt="..."
-                                                                                style="border-radius: 50%;cursor: pointer;" />
-                                                                            <h6>DISFRACES PARA TU PERRO</h6>
-                                                                                
-                                                                            </div>
-                                                                            
-                                                                            
-                                                                            </div>
-                                                                    </div>
-                                                                    
-                                                                    <!-- Portfolio Item 2-->
-                                                                    <div class="col-md-6 col-lg-4 mb-5">
-                                                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                                            data-bs-target="#portfolioModal4">
-                                                                            <div
-                                                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                                                                
-                                                                            </div>
-                                                                            <img class="img-fluid" src="{{ asset('imagen/bioseguro.jpg') }}" alt="..."
-                                                                                style="border-radius: 50%;cursor: pointer;" />
-                                                                            <h6>ELEMENTOS DE BIOSEGURIDAD COMPARTIDOS</h6>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- Portfolio Item 2-->
-                                                                    <div class="col-md-6 col-lg-4 mb-5">
-                                                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                                            data-bs-target="#portfolioModal5">
-                                                                            <div
-                                                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                                                                <img class="img-fluid" src="{{ asset('imagen/pomeriano.png') }}" alt="..."
-                                                                                style="border-radius: 50%;cursor: pointer;" />
-                                                                                <br>
-                                                                                <h6>10% DTO EN PELUQUEADAS PARES</h6>
-                                                                            </div>
-                                                                            
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- Portfolio Item 2-->
-                                                                    <div class="col-md-6 col-lg-4 mb-5">
-                                                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal"
-                                                                            data-bs-target="#portfolioModal6">
-                                                                            <div
-                                                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                
-                                                                            </div>
-                                                                            <img class="img-fluid" src="{{ asset('imagen/gokugato.jpg') }}" alt="..."
-                                                                                style="border-radius: 50%;cursor: pointer;" />
-                                                                            <h6>ELEGANCIA PARA TU GATO</h6>
-                                                                        </div>
-                                                                    </div>
-                            
-                            
 
                     </section>
                     <!-- About Section-->
@@ -429,239 +432,258 @@
         </div>
     </footer>
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-            aria-label="Close"></button></div>
-    <div class="modal-body text-center pb-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <!-- Portfolio Modal - Title-->
-                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">JUGUETES PARA GATOS</h2>
-                    <!-- Icon Divider-->
-                    <div class="divider-custom">
-                        <div class="divider-custom-line"></div>
-                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                        <div class="divider-custom-line"></div>
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">JUGUETES PARA GATOS
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="{{ asset('imagen\JUGETE2.jpg') }}" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Los gatos son unos grandes juguetones y es necesario estimular su instinto
+                                    depredador innato.
+                                    Por ello, los juguetes interactivos y de inteligencia son una buena opción para
+                                    entretenerlos.
+                                    Encuentra aquí todos los juguetes para gatos que ponen a prueba sus habilidades.
+                                </p>
+                                <button class="btn btn-primary" href="https://api.whatsapp.com/send?phone=573174140507" data-bs-dismiss="modal">
+                                    <i class="fas fa-paw"></i>
+                                    CERRAR</button>
+                                    <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573174140507">SOLICITAR INFORMACION</a>    
+                            </div>
+                        </div>
                     </div>
-                    <!-- Portfolio Modal - Image-->
-                    <img class="img-fluid rounded mb-5" src="{{ asset('imagen\JUGETE2.jpg') }}" alt="..." />
-                    <!-- Portfolio Modal - Text-->
-                    <p class="mb-4">Los gatos son unos grandes juguetones y es necesario estimular su instinto depredador innato. 
-                        Por ello, los juguetes interactivos y de inteligencia son una buena opción para entretenerlos. 
-                        Encuentra aquí todos los juguetes para gatos que ponen a prueba sus habilidades.
-                    </p>
-                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                        <i class="fas fa-times fa-fw"></i>
-                        SOLICITAR INFORMACION
-                    </button>
                 </div>
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-<!-- Portfolio Modal 2-->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
-aria-hidden="true">
-<div class="modal-dialog modal-xl">
-<div class="modal-content">
-    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-            aria-label="Close"></button></div>
-    <div class="modal-body text-center pb-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <!-- Portfolio Modal - Title-->
-                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ACCESORIOS PARA PERROS</h2>
-                    <!-- Icon Divider-->
-                    <div class="divider-custom">
-                        <div class="divider-custom-line"></div>
-                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                        <div class="divider-custom-line"></div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+               
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ACCESORIOS PARA PERROS
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="{{ asset('imagen\ACCESORIOPERRO.jpg') }}"
+                                    alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Encuentra aquí excelente surtido en artículos, accesorios y juguetes para
+                                    perro.
+                                    guacales, comederos, huesos, dispensadores, camas y muebles para consentir a esa mascota
+                                    preferida.
+                                </p>
+                                <button class="btn btn-primary" href="https://api.whatsapp.com/send?phone=573174140507" data-bs-dismiss="modal">
+                                    <i class="fas fa-paw"></i>
+                                    CERRAR</button>
+                                    <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573174140507">SOLICITAR INFORMACION</a>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Portfolio Modal - Image-->
-                    <img class="img-fluid rounded mb-5" src="{{ asset('imagen\ACCESORIOPERRO.jpg') }}" alt="..." />
-                    <!-- Portfolio Modal - Text-->
-                    <p class="mb-4">Encuentra aquí excelente surtido en artículos, accesorios y juguetes para perro. 
-                        guacales, comederos, huesos, dispensadores, camas y muebles para consentir a esa mascota preferida.
-                    </p>
-                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                        <i class="fas fa-times fa-fw"></i>
-                        SOLICITAR INFORMACION
-                    </button>
                 </div>
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
-aria-hidden="true">
-<div class="modal-dialog modal-xl">
-<div class="modal-content">
-    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-            aria-label="Close"></button></div>
-    <div class="modal-body text-center pb-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <!-- Portfolio Modal - Title-->
-                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">DISFRACES PARA PERROS</h2>
-                    <!-- Icon Divider-->
-                    <div class="divider-custom">
-                        <div class="divider-custom-line"></div>
-                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                        <div class="divider-custom-line"></div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">DISFRACES PARA PERROS
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="{{ asset('imagen\disfracesperros3.jpg') }}"
+                                    alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Sin duda, los que tenemos un perro en la familia disfrutamos de que comparta
+                                    con nosotros el mayor tiempo posible y, en consecuencia, lo incorporamos cada vez más a
+                                    nuestras actividades,
+                                    lo llevamos en nuestras salidas fuera de casa y nos gusta que participe en nuestras
+                                    celebraciones.
+                                    Si nos gusta disfrazarnos, ya sea para fiestas familiares o eventos sociales o
+                                    concursos, tendremos la tentación de que también nuestro perro participe.
+                                </p>
+                                <button class="btn btn-primary" href="https://api.whatsapp.com/send?phone=573174140507" data-bs-dismiss="modal">
+                                    <i class="fas fa-paw"></i>
+                                    CERRAR</button>
+                                    <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573174140507">SOLICITAR INFORMACION</a>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Portfolio Modal - Image-->
-                    <img class="img-fluid rounded mb-5" src="{{ asset('imagen\disfracesperros3.jpg') }}" alt="..." />
-                    <!-- Portfolio Modal - Text-->
-                    <p class="mb-4">Sin duda, los que tenemos un perro en la familia disfrutamos de que comparta con nosotros el mayor tiempo posible y, en consecuencia, lo incorporamos cada vez más a nuestras actividades, 
-                        lo llevamos en nuestras salidas fuera de casa y nos gusta que participe en nuestras celebraciones.
-                        Si nos gusta disfrazarnos, ya sea para fiestas familiares o eventos sociales o concursos, tendremos la tentación de que también nuestro perro participe.
-                    </p>
-                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                        <i class="fas fa-times fa-fw"></i>
-                        SOLICITAR INFORMACION
-                    </button>
                 </div>
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
-aria-hidden="true">
-<div class="modal-dialog modal-xl">
-<div class="modal-content">
-<div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-        aria-label="Close"></button></div>
-<div class="modal-body text-center pb-5">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <!-- Portfolio Modal - Title-->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">BIOSEGURIDAD</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">BIOSEGURIDAD</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="{{ asset('imagen\bioperros.jpg') }}"
+                                    alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">No lo sueltes y evita que tenga contacto con otros perros. Respeta la
+                                    distancia mínima de 2 metros con las demás personas.
+
+                                    Usa un kit de aseo exclusivo para tu mascota que incluya agua con jabón y toallas
+                                    desechables para limpiar y secar sus patitas antes de entrar a casa.
+
+                                    Asigna a una persona menor de 60 años para esta labor. Debe salir con guantes y
+                                    tapabocas.
+
+                                    Pasea a tu perro de 10 a 15 minutos diarios. Sácalo con correa y bozal si se requiere.
+
+                                    No uses detergente ni gel antibacterial para desinfectar a tu mascota, ya que puede
+                                    provocarle irritaciones.
+
+                                    Si tu mascota desarrolla una enfermedad inusual y estaba cerca de una persona con
+                                    infección documentada por COVID-19,
+                                    llama a tu clínica veterinaria antes de ir e infórmales que tu mascota estuvo expuesta a
+                                    la infección.
+                                </p>
+                                <button class="btn btn-primary" href="https://api.whatsapp.com/send?phone=573174140507" data-bs-dismiss="modal">
+                                    <i class="fas fa-paw"></i>
+                                    CERRAR</button>
+                                    <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573174140507">SOLICITAR INFORMACION</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Portfolio Modal - Image-->
-                <img class="img-fluid rounded mb-5" src="{{ asset('imagen\bioperros.jpg') }}" alt="..." />
-                <!-- Portfolio Modal - Text-->
-                <p class="mb-4">No lo sueltes y evita que tenga contacto con otros perros. Respeta la distancia mínima de 2 metros con las demás personas. 
-                    
-                    Usa un kit de aseo exclusivo para tu mascota que incluya agua con jabón y toallas desechables para limpiar y secar sus patitas antes de entrar a casa.
-                    
-                    Asigna a una persona menor de 60 años para esta labor. Debe salir con guantes y tapabocas.
-                    
-                    Pasea a tu perro de 10 a 15 minutos diarios. Sácalo con correa y bozal si se requiere.
-                    
-                    No uses detergente ni gel antibacterial para desinfectar a tu mascota, ya que puede provocarle irritaciones.
-
-                    Si tu mascota desarrolla una enfermedad inusual y estaba cerca de una persona con infección documentada por COVID-19, 
-                    llama a tu clínica veterinaria antes de ir e infórmales que tu mascota estuvo expuesta a la infección.
-                </p>
-                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    SOLICITAR INFORMACION
-                </button>
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-</div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5"
-aria-hidden="true">
-<div class="modal-dialog modal-xl">
-<div class="modal-content">
-<div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-        aria-label="Close"></button></div>
-<div class="modal-body text-center pb-5">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <!-- Portfolio Modal - Title-->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">PELUQUERIA</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+               
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">PELUQUERIA</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="{{ asset('imagen\pelosperro.jpg') }}"
+                                    alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    En nuestra peluquería se le realizará un baño en profundidad que ayudará a detectar
+                                    posibles parásitos e infecciones.
+                                    También nos puede ayudar a evitar posibles problemas auditivos.
+                                    El peluquero limpiará los oídos de la mascota, lo que puede evitar infecciones y
+                                    problemas más graves de salud.
+                                    Y lo mismo ocurre con la dentadura.
+
+                                </p>
+                                <button class="btn btn-primary" href="https://api.whatsapp.com/send?phone=573174140507" data-bs-dismiss="modal">
+                                    <i class="fas fa-paw"></i>
+                                    CERRAR</button>
+                                    <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573174140507">SOLICITAR INFORMACION</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Portfolio Modal - Image-->
-                <img class="img-fluid rounded mb-5" src="{{ asset('imagen\pelosperro.jpg') }}" alt="..." />
-                <!-- Portfolio Modal - Text-->
-                <p class="mb-4">
-                    En nuestra peluquería se le realizará un baño en profundidad que ayudará a detectar posibles parásitos e infecciones.
-                    También nos puede ayudar a evitar posibles problemas auditivos. 
-                    El peluquero limpiará los oídos de la mascota, lo que puede evitar infecciones y problemas más graves de salud. 
-                    Y lo mismo ocurre con la dentadura. 
-
-                </p>
-                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    SOLICITAR INFORMACION
-                </button>
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-</div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
-aria-hidden="true">
-<div class="modal-dialog modal-xl">
-<div class="modal-content">
-<div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
-        aria-label="Close"></button></div>
-<div class="modal-body text-center pb-5">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <!-- Portfolio Modal - Title-->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ELEGANCIA FELINA</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+               
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ELEGANCIA FELINA</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="{{ asset('imagen\elegancia.jpg') }}"
+                                    alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    Aunque parezca mentira la tan consabida elegancia felina no es algo que estos animales
+                                    mantengan contra viento y marea,
+                                    en cualquier situación en que se encuentren. Es algo intrínseco,
+                                    sí, pero si las condiciones en las que crecen y viven no acompañan,
+                                    entonces perderán agilidad y “felinidad”.
+                                </p>
+                                <button class="btn btn-primary" href="https://api.whatsapp.com/send?phone=573174140507" data-bs-dismiss="modal">
+                                    <i class="fas fa-paw"></i>
+                                    CERRAR</button>
+                                    <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573174140507">SOLICITAR INFORMACION</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Portfolio Modal - Image-->
-                <img class="img-fluid rounded mb-5" src="{{ asset('imagen\elegancia.jpg') }}" alt="..." />
-                <!-- Portfolio Modal - Text-->
-                <p class="mb-4">
-                    Aunque parezca mentira la tan consabida elegancia felina no es algo que estos animales mantengan contra viento y marea,
-                     en cualquier situación en que se encuentren. Es algo intrínseco, 
-                    sí, pero si las condiciones en las que crecen y viven no acompañan, 
-                    entonces perderán agilidad y “felinidad”. 
-                </p>
-                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    SOLICITAR INFORMACION
-                </button>
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-</div>
 
 
 

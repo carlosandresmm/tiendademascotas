@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<body style="background:url({{ asset('imagen/purina.jpg') }})">
+<body style="background:url({{ asset('imagen/imagen2.jpg') }})">
 <div class="container" >
     <div class="row justify-content-center">
         <div class="col-md-8">
