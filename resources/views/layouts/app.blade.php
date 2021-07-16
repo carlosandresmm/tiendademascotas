@@ -110,7 +110,7 @@
                         <a class="nav-link" href="#">Tiendas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link"href="https://api.whatsapp.com/send?phone=573174140507">Contacto</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('contacto.create') }}">Pedidos</a>
@@ -128,7 +128,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://api.whatsapp.com/send?phone=573186558878"><img
+                        <a class="nav-link" href="https://api.whatsapp.com/send?phone=573174140507"><img
                                 style="width: 40px;height: 40px;" class="img-fluid"
                                 src="{{ asset('imagen/giphy.gif') }}" alt="..." /></a>
                     </li>

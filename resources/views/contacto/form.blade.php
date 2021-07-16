@@ -1,8 +1,4 @@
-<?php
-print_r('<pre>');
-print_r($data_user_sesion);exit;
 
-?>
 @extends('layouts.app')
 
 @section('content')

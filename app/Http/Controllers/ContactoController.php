@@ -16,11 +16,9 @@ class ContactoController extends Controller
      */
     public function index()
     {
-        $data_user_sesion = Auth::user()->id;
-        $sql = "SELECT * FROM contactos WHERE id_usuario = $data_user_sesion";
-        $contacto_user = DB::select($sql);
+        
           $usuarios = Contacto::all();
-          return view('contacto.form',compact('usuarios', 'data_user_sesion', 'contacto_user'));
+          return view('contacto.form',compact('usuarios'));
     }
 
     /**
@@ -43,6 +41,7 @@ class ContactoController extends Controller
     {
         $usuarios = new Contacto();
         $usuarios->id = request('id');
+        $usuarios->name = request('name');
         $usuarios->direction = request('direction');
         $usuarios->phone = request('phone');
         $usuarios->save();
