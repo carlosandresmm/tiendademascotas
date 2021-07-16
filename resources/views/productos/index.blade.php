@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <h1>MI CONTENIDO INDEX</h1>
-        <a href="{{ url('home/create') }}">
+        <a href="{{ url('productos/create') }}">
             <button class="my-4 btn btn-outline-success">Crear Producto</button>
         </a>
         <table class="table table-striped">
@@ -34,11 +34,11 @@
                         <td>{{ $producto->fec_ingreso }}</td>
                         <td>
                         <td>
-                            <a href="{{ url('home/'.$producto->id.'/edit') }}">EDITAR</a>
+                            <a href="{{ url('productos/'.$producto->id.'/edit') }}">EDITAR</a>
                         </td>
 
                         <td>
-                            <form action="{{ url('home/'.$producto->id)  }}" method="POST">
+                            <form action="{{ url('productos/'.$producto->id)  }}" method="POST">
                                 @csrf
                                 {{ method_field('DELETE')}}
                                 <button type ="submit" class="btn btn-outline-danger">ELIMINAR</button>

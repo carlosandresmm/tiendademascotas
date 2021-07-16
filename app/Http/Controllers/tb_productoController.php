@@ -24,7 +24,7 @@ class tb_productoController extends Controller
         ";
         $tienda_producto = DB::select($sql);
         // $dato['tienda_producto']=tb_producto::paginate(5);
-        return view('home', compact('tienda_producto'));
+        return view('productos.productov', compact('tienda_producto'));
     }
 
     public function admin()

@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-<body style="background-color: rgba(134, 204, 186, 0.918)!important;">
-<div class="container">
+<body style="background:url({{ asset('imagen/purina.jpg') }})">
+<div class="container" >
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+                <div class="card-header">{{ __('Iniciar sesion') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -55,7 +55,7 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
+                                    {{ __('Ingresar') }}
                                 </button>
 
                                 @if (Route::has('password.request'))

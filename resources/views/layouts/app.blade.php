@@ -12,9 +12,10 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <!-- este comentario es de prueba, repositorio carlos  -->
+
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">|
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
             <div class="container">
                 <img style="width: 120px;height: 120px; margin-right: 30px;" class="img-fluid"
                     src="{{ asset('imagen/logocolor1.png') }}" alt="..." />
@@ -31,8 +32,7 @@
                 <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Marcas<span
-                                class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Marcas<span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item active">
@@ -75,10 +75,12 @@
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                         document.getElementById('logout-form').submit();">
-                                        {{ __('cerrar sesion') }}
+                                                             document.getElementById('logout-form').submit();">
+                                        {{ __('Cerrar sesion') }}
                                     </a>
-
+                                    <a class="dropdown-item" href="#">
+                                        {{ __('Mis datos') }}
+                                    </a>
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
 
                                         @csrf
@@ -87,7 +89,7 @@
                             </li>
                         @endguest
                         <li class="nav-item">
-                            <a id="navbarDropdown" class="nav-link" href="#">
+                            <a href="{{ route('carro.index') }}" id="navbarDropdown" class="nav-link" >
                                 <img style="width: 30px;height: 30px;" class="img-fluid"
                                     src="{{ asset('imagen/carrito2.png') }}" alt="..." />
                             </a>

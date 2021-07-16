@@ -1,5 +1,5 @@
 <div class="form-floating mb-3">
-    <input class="form-control" id="name" value="{{$usuario->name}}" name="name" type="text"
+    <input class="form-control" id="name"  name="name" type="text"
         placeholder="Enter your name..." data-sb-validations="required" />
     <label for="name">Nombre completo</label>
     <div class="invalid-feedback" data-sb-feedback="name:required">A name is
@@ -7,7 +7,7 @@
 </div>
 
 <div class="form-floating mb-3">
-    <input class="form-control" id="direction" value="{{$usuario->direction}}" name="direction" type="text"
+    <input class="form-control" id="direction"  name="direction" type="text"
         placeholder="Ej... Cl 5 # 20-52 torre 5 apto 601" data-sb-validations="required" />
     <label for="direction">Dirección</label>
     <div class="invalid-feedback" data-sb-feedback="direction:required">A direction
@@ -17,7 +17,7 @@
 
 
 <div class="form-floating mb-3">
-    <input class="form-control" id="phone" value="{{$usuario->phone}}" name="phone" type="tel" placeholder="(123) 456-7890"
+    <input class="form-control" id="phone"  name="phone" type="tel" placeholder="(123) 456-7890"
         data-sb-validations="required" />
     <label for="phone">Número de teléfono</label>
     <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number

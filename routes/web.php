@@ -4,6 +4,7 @@ use App\Http\Controllers\tb_pedidoController;
 use App\Http\Controllers\tb_dirigidoController;
 use App\Http\Controllers\ContactoController;
 use App\Http\Controllers\PagosController;
+use App\Http\Controllers\CarroController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,10 +34,11 @@ Auth::routes();
 
 Route::resource('marca', tb_marcaController::class);
 
-Route::resource('contacto', ContactoController::class);
+Route::resource('contacto','App\Http\Controllers\ContactoController');
 Route::get('/bienvenida', [App\Http\Controllers\HomeController::class, 'index'])->name('bienvenida');
+Route::resource('carro','App\Http\Controllers\CarroController');
 
-Route::resource('home', tb_productoController::class); 
+Route::resource('productos', tb_productoController::class); 
 Route::get('admin_productos', [tb_productoController::class, 'admin'] );
 Route::resource('pedidos', tb_pedidoController::class); 
 Route::resource('dirigidos', tb_dirigidoController::class); 
@@ -47,3 +49,5 @@ Route::resource('dirigidos', tb_dirigidoController::class);
 // Route::get('/cubios/create', [TbCubiosController::class, 'create']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('/pagos', PagosController::class);
+
+

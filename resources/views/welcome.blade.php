@@ -40,7 +40,8 @@
                         </div>
 
 
-                    </header>
+                    </header >
+                    <div class="divider-custom-icon"><i class="fas fa-bone"></i></div>
                     <hr>
                     <section class="page-section portfolio" id="portfolio">
                         <div class="container">
@@ -55,62 +56,62 @@
                                         <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
+                                    
                                     <!-- Portfolio  Items-->
                                     <div class="row justify-content-center col-12 ml-1">
 
-                                        <div class="card" style="width: 15rem;margin:20px ">
+                                        <div class="card" style="width: 16.5rem;height: 30rem;margin:10px ">
                                             <img src="{{ asset('imagen/imagen3.jpg') }}" class="card-img-top" alt="...">
                                             <div class="card-body">
-                                                <h6 class="card-title">Card title</h6>
-                                                <p class="card-text">
-                                                <h6>Some quick example text to build on the card.</h6>
+                                                <h6 class="card-title text-primary">Hill´s</h6>
+                                                <p class="card-text text-primary">
+                                                <h6 class="card-title text-primary">Adultos 1-6</h6>
                                                 </p>
                                             </div>
                                             <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">jfgkfgk</li>
-                                                <li class="list-group-item">A second item</li>
-                                                <li class="list-group-item">A third item</li>
+                                               
+                                                <li class="list-group-item">Peso: 1000g</li>
+                                                <li class="list-group-item">Precio: $ 25.000</li>
                                             </ul>
                                             <div class="card-body">
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#"  class="btn btn-danger">Detalle</a>
+                                                <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                             </div>
                                         </div>
 
-                                        <div class="card " style="width: 15rem;margin:20px ">
+                                        <div class="card " style="width: 16.5rem;height: 30rem; margin:10px ">
                                             <img src="{{ asset('imagen/mirringo.jpg') }}" class="card-img-top" alt="..."  style="width: 300px;height:230px">
                                             <div class="card-body">
-                                                <h6 class="card-title">Card title</h6>
-                                                <p class="card-text">
-                                                <h6>Some quick example text to build on the card.</h6>
-                                                </p>
+                                                <h6 class="card-title text-primary">Mirringo</h6>
+                                                <p class="card-text text-primary">
+                                                    <h6  class="card-title text-primary">Adultos 1-6</h6>
+                                                    </p>
                                             </div>
                                             <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">An item</li>
-                                                <li class="list-group-item">A second item</li>
-                                                <li class="list-group-item">A third item</li>
+                                                
+                                                <li class="list-group-item">Peso: 1000g</li>
+                                                <li class="list-group-item">Precio: $ 15.000</li>
                                             </ul>
                                             <div class="card-body">
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#"  class="btn btn-danger">Detalle</a>
+                                                <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                             </div>
                                         </div>
-                                        <div class="card" style="width: 15rem;margin:20px ">
+                                        <div class="card" style="width: 16.5rem;height: 30rem; margin:10px ">
                                             <img src="{{ asset('imagen/sobres.jpg') }}" style="width: 300px;height:230px" class="card-img-top" alt="...">
                                             <div class="card-body">
-                                                <h6 class="card-title">Card title</h6>
-                                                <p class="card-text">
-                                                <h6>Some quick example text to build on the card.</h6>
+                                                <h6 class="card-title text-primary">Whiskas</h6>
+                                                <p class="card-text text-primary">
+                                                <h6  class="card-title text-primary">adulto 1+</h6>
                                                 </p>
                                             </div>
                                             <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">An item</li>
-                                                <li class="list-group-item">A second item</li>
-                                                <li class="list-group-item">A third item</li>
+                                                <li class="list-group-item">Peso: 85g</li>
+                                                <li class="list-group-item">Precio: $ 8.000</li>
                                             </ul>
                                             <div class="card-body">
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#"  class="btn btn-danger">Detalle</a>
+                                                <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -118,113 +119,63 @@
 
                                 <div class="row justify-content-center col-12 ml-1">
 
-                                    <div class="card" style="width: 15rem;margin:20px ">
-                                        <img src="{{ asset('imagen/imagen3.jpg') }}" class="card-img-top" alt="...">
+                                    <div class="card" style="width: 16.5rem;height: 30rem; margin:10px ">
+                                        <img src="{{ asset('imagen/chunky.jpg') }}" class="card-img-top" alt="...">
                                         <div class="card-body">
-                                            <h6 class="card-title">Card title</h6>
-                                            <p class="card-text">
-                                            <h6>Some quick example text to build on the card.</h6>
+                                            <h6 class="card-title text-primary">Chunky</h6>
+                                            <p class="card-text text-primary">
+                                            <h6  class="card-title text-primary">Adultos</h6>
                                             </p>
                                         </div>
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">jfgkfgk</li>
-                                            <li class="list-group-item">A second item</li>
-                                            <li class="list-group-item">A third item</li>
+                                            <li class="list-group-item">Peso: 20k</li>
+                                                <li class="list-group-item">Precio: $ 65.000</li>
                                         </ul>
                                         <div class="card-body">
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#"  class="btn btn-danger">Detalle</a>
+                                            <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                         </div>
                                     </div>
 
-                                    <div class="card " style="width: 15rem;margin:20px ">
-                                        <img src="{{ asset('imagen/mirringo.jpg') }}" class="card-img-top" alt="..."  style="width: 300px;height:230px">
+                                    <div class="card " style="width: 16.5rem;height: 30rem; margin:10px ">
+                                        <img src="{{ asset('imagen/ringo.jpg') }}" class="card-img-top" alt="..."  style="width: 300px;height:230px">
                                         <div class="card-body">
-                                            <h6 class="card-title">Card title</h6>
-                                            <p class="card-text">
-                                            <h6>Some quick example text to build on the card.</h6>
+                                            <h6 class="card-title text-primary">Ringo</h6>
+                                            <p class="card-text text-primary">
+                                            <h6 class="card-title text-primary" >Edad avanzada</h6>
                                             </p>
                                         </div>
+                                        
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">An item</li>
-                                            <li class="list-group-item">A second item</li>
-                                            <li class="list-group-item">A third item</li>
+                                            <li class="list-group-item ">Peso: 20k</li>
+                                                <li class="list-group-item">Precio: $ 95.000</li>
                                         </ul>
                                         <div class="card-body">
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#"  class="btn btn-danger">Detalle</a>
+                                            <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                         </div>
                                     </div>
-                                    <div class="card" style="width: 15rem;margin:20px ">
-                                        <img src="{{ asset('imagen/sobres.jpg') }}" style="width: 300px;height:230px" class="card-img-top" alt="...">
+                                    <div class="card" style="width: 16.5rem;height: 30rem; margin:10px ">
+                                        <img src="{{ asset('imagen/purinas.png') }}" style="width: 300px;height:230px" class="card-img-top" alt="...">
                                         <div class="card-body">
-                                            <h6 class="card-title">Card title</h6>
+                                            <h6 class="card-title text-primary" >Pro Plan</h6>
                                             <p class="card-text">
-                                            <h6>Some quick example text to build on the card.</h6>
+                                            <h6  class="card-title text-primary">Cachorros</h6>
                                             </p>
                                         </div>
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">An item</li>
-                                            <li class="list-group-item">A second item</li>
-                                            <li class="list-group-item">A third item</li>
+                                            <li class="list-group-item">Peso: 4.5</li>
+                                                <li class="list-group-item">Precio: $ 45.000</li>
                                         </ul>
                                         <div class="card-body">
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#"  class="btn btn-danger">Detalle</a>
+                                            <a href="{{ route('login') }}" class="btn btn-success">Comprar</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                                <div class="container" style="margin-top: 10px">
-                                    <div class="card-group">
-                                        <div class="card" style="width: 15rem;margin-right: 10px; margin-left:10px ">
-                                            <img src="{{ asset('img/sheba.jpg') }}" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">MARCA PREMIUM</h5>
-                                                <p class="card-text">Agua suficiente para proceso, carne de pescado blanco,
-                                                    hígado de cerdo, carne de pollo, gluten de trigo, carne de pavo, hígado
-                                                    de cerdo, carne de pollo, gluten de trigo, vísceras de cerdo, carne de
-                                                    salmón, almidón de maíz modificado, harina de soya, concentrado de
-                                                    proteína de soya, fosfato tricálcico, cloruro de potasio, taurina,
-                                                    cloruro de colina, sal, mononitrato de tiamina, sulfato de zinc,
-                                                    suplemento de vitamina E.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <small class="text-muted">50% De DESCUENTO</small>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="width: 15rem;margin-right: 10px; margin-left:10px ">
-                                            <img src="{{ asset('img/tres.jpg') }}" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">CACHORROS</h5>
-                                                <p class="card-text">Junior es una sabrosa receta rica en Pollo y con un
-                                                    alto nivel de proteínas para alimentar el crecimiento saludable de tu
-                                                    cachorro de 1 a 12 meses. Elaborado con ingredientes de alta calidad,
-                                                    que le ayudará al desarrollo de las defensas naturales y unos dientes y
-                                                    huesos fuertes.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <small class="text-muted">60% De DESCUENTO en comida SECA</small>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="width: 15rem;margin-right: 10px; margin-left:10px ">
-                                            <img src="{{ asset('img/dos.jpg') }}" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">GATOS & PERROS</h5>
-                                                <p class="card-text">En nuestra tienda podrás encontrar todo tipo de comida
-                                                    para tus mascotas, contamos con una gran variedad de productos tanto
-                                                    nacionales como importados de las mejores marcas y de la mejor calidad.
-                                                </p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <small class="text-muted">APROVECHA NUESTROS DESCUENTOS</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
+                            <div class="divider-custom-icon"><i class="fas fa-bone"></i></div>
+                                
                                 <div class="container">
                                     <hr>
                                     <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
