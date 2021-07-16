@@ -32,11 +32,11 @@
                 <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Marcas<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ url('/marca-destacados') }}">Marcas<span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="{{ url('home') }}" style=" margin-right: 180px;">Productos<span
+                        <a class="nav-link" href="{{ url('productos') }}" style=" margin-right: 180px;">Productos<span
                                 class="sr-only">(current)</span></a>
                     </li>
 
@@ -78,7 +78,7 @@
                                                              document.getElementById('logout-form').submit();">
                                         {{ __('Cerrar sesion') }}
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="{{ route('contacto.index') }}">
                                         {{ __('Mis datos') }}
                                     </a>
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
@@ -120,7 +120,7 @@
                             Opciones
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="{{ url('home') }}">Productos</a>
+                            <a class="dropdown-item" href="{{ url('productos') }}">Productos</a>
                             <a class="dropdown-item" href="#">Servicios</a>
                             <a class="dropdown-item" href="#">Domicilios</a>
                             <a class="dropdown-item" href="{{ url('tips') }}">Tips</a>

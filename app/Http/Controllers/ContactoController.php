@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Contacto;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class ContactoController extends Controller
 {
@@ -14,8 +16,11 @@ class ContactoController extends Controller
      */
     public function index()
     {
+        $data_user_sesion = Auth::user()->id;
+        $sql = "SELECT * FROM contactos WHERE id_usuario = $data_user_sesion";
+        $contacto_user = DB::select($sql);
           $usuarios = Contacto::all();
-          return view('contacto.index',compact('usuarios'));
+          return view('contacto.form',compact('usuarios', 'data_user_sesion', 'contacto_user'));
     }
 
     /**

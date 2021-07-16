@@ -33,6 +33,9 @@ Route::get('/marca', function () {
 Auth::routes();
 
 Route::resource('marca', tb_marcaController::class);
+Route::get('/marca-destacados', function () {
+    return view('marca.destacados');
+});
 
 Route::resource('contacto','App\Http\Controllers\ContactoController');
 Route::get('/bienvenida', [App\Http\Controllers\HomeController::class, 'index'])->name('bienvenida');
