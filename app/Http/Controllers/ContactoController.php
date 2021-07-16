@@ -42,7 +42,7 @@ class ContactoController extends Controller
     public function store(Request $request)
     {
         $usuarios = new Contacto();
-        $usuarios->name = request('name');
+        $usuarios->id = request('id');
         $usuarios->direction = request('direction');
         $usuarios->phone = request('phone');
         $usuarios->save();

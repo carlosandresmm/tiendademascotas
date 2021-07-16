@@ -190,7 +190,7 @@
                                     <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-//////////////////////////////////////////////////////////////
+
 
                                                                 <!-- Portfolio Item 1-->
                                                                 <div class="container" style="display: flex;flex-wrap: wrap;justify-content:space-around;" >
