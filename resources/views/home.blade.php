@@ -12,7 +12,7 @@
         <div class="row justify-content-center">
             <div class="">
 
-                <body style="background-color: rgba(134, 204, 186, 0.918)!important;">
+                <body style="background-color: rgba(246, 250, 249, 0.918)!important;">
 
 
                     <header class="masthead bg-primary text-white text-center">
